@@ -1,9 +1,35 @@
+const moment = require('moment');
+
 module.exports = {
   title: 'Как стать разработчиком',
   description: 'Сборник материалов и вопросов для самостоятельного изучения',
+  plugins: [
+    ['@vuepress/google-analytics', { ga: 'UA-155355230-1' }],
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // Don't forget to install moment yourself
+          const moment = require('moment')
+          moment.locale('ru-RU')
+          return moment(timestamp).fromNow()
+        }
+      }
+    ]
+  ],
   themeConfig: {
+    docsDir: 'docs',
+    lastUpdated: 'Последнее обновление: ',
+    repo: 'flags8192/developers-roadmap',
+    repoLabel: 'Github',
+    editLinks: true,
+    editLinkText: 'Помогите нам улучшить эту страницу!',
     searchPlaceholder: 'Поиск...',
     logo: '/assets/img/logo.png',
+    algolia: {
+      apiKey: '<API_KEY>',
+      indexName: '<INDEX_NAME>'
+    },
     nav: [{
         text: 'Frontend',
         link: '/frontend/junior-1/html'
@@ -11,10 +37,6 @@ module.exports = {
       {
         text: 'Backend',
         link: '/backend/junior-1/haskel'
-      },
-      {
-        text: 'Github',
-        link: 'https://github.com/flags8192'
       },
     ],
     sidebar: [
@@ -107,7 +129,7 @@ module.exports = {
             children: [
               ['/frontend/middle-3/fp', 'Функциональное программирование']
             ]
-          }      
+          }
         ]
       },
       {
@@ -135,7 +157,7 @@ module.exports = {
               ['/backend/junior-3/db', 'Базы данных'],
               ['/backend/junior-3/haskel', 'Haskel']
             ]
-          }  
+          }
         ]
       }
     ]

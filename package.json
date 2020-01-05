@@ -1,9 +1,15 @@
 {
   "scripts": {
     "dev:docs": "vuepress dev docs",
-    "build:docs": "vuepress build docs"
+    "build:docs": "vuepress build docs",
+    "publish:docs": "vuepress build docs && ./deploy.sh"
   },
   "dependencies": {
+    "moment": "^2.24.0",
     "readme-md-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "vuepress": "^1.1.0"
   }
 }
