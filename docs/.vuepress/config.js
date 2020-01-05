@@ -24,12 +24,14 @@ module.exports = {
     repoLabel: 'Github',
     editLinks: true,
     editLinkText: 'Помогите нам улучшить эту страницу!',
+    search: true,
+    searchMaxSuggestions: 10,
     searchPlaceholder: 'Поиск...',
     logo: '/assets/img/logo.png',
-    algolia: {
+    /* algolia: {
       apiKey: '<API_KEY>',
       indexName: '<INDEX_NAME>'
-    },
+    },*/
     nav: [{
         text: 'Frontend',
         link: '/frontend/junior-1/html'
@@ -38,8 +40,23 @@ module.exports = {
         text: 'Backend',
         link: '/backend/junior-1/haskel'
       },
+      {
+        text: 'Стандарты',
+        link: '/standarts/initiation'
+      }
     ],
     sidebar: [
+      {
+        type : 'group',
+        title: 'Стандарты',
+        collapsable: true,
+        children: [
+          ['/standarts/initiation', 'Инициация'],
+          ['/standarts/html', 'HTML'],
+          ['/standarts/css', 'CSS'],
+          ['/standarts/js', 'JS']
+        ]
+      },
       {
         type : 'group',
         title: 'Frontend разработчик',
