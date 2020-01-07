@@ -9,7 +9,6 @@ module.exports = {
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
-          // Don't forget to install moment yourself
           const moment = require('moment')
           moment.locale('ru-RU')
           return moment(timestamp).fromNow()
@@ -28,10 +27,10 @@ module.exports = {
     searchMaxSuggestions: 10,
     searchPlaceholder: 'Поиск...',
     logo: '/assets/img/logo.png',
-    /* algolia: {
-      apiKey: '<API_KEY>',
-      indexName: '<INDEX_NAME>'
-    },*/
+    algolia: {
+      apiKey: '933b49122e13dede1058e3a1ff29aa3e',
+      indexName: 'listratenkov'
+    },
     nav: [{
         text: 'Frontend',
         link: '/frontend/junior-1/html'
