@@ -3,8 +3,38 @@ const moment = require('moment');
 module.exports = {
   title: 'Как стать разработчиком',
   description: 'Сборник материалов и вопросов для самостоятельного изучения',
+  head: [
+    ['link', {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '32x32',
+      href: '/assets/img/favicon-32x32.png'
+    }],
+    ['link', {
+      rel: 'icon',
+      type: 'image/png',
+      sizes: '16x16',
+      href: '/assets/img/favicon-16x16.png'
+    }],
+    ['link', {
+      rel: 'apple-touch-icon',
+      sizes: '180x180',
+      href: '/assets/img/apple-touch-icon.png'
+    }],
+    ['link', {
+      rel: 'mask-icon',
+      color: '#5bbad5',
+      href: '/assets/img/safari-pinned-tab.svg'
+    }],
+    ['link', {
+      rel: 'manifest',
+      href: '/assets/img/manifest.json'
+    }]
+  ],
   plugins: [
-    ['@vuepress/google-analytics', { ga: 'UA-155355230-1' }],
+    ['@vuepress/google-analytics', {
+      ga: 'UA-155355230-1'
+    }],
     [
       '@vuepress/last-updated',
       {
@@ -37,31 +67,29 @@ module.exports = {
       },
       {
         text: 'Backend',
-        link: '/backend/junior-1/haskel'
+        link: '/backend/junior-1/haskell'
       },
       {
         text: 'Стандарты',
-        link: '/standarts/initiation'
+        link: '/standards/initiation'
       }
     ],
-    sidebar: [
-      {
-        type : 'group',
+    sidebar: [{
+        type: 'group',
         title: 'Стандарты',
         collapsable: true,
         children: [
-          ['/standarts/initiation', 'Инициация'],
-          ['/standarts/html', 'HTML'],
-          ['/standarts/css', 'CSS'],
-          ['/standarts/js', 'JS']
+          ['/standards/initiation', 'Инициация'],
+          ['/standards/html', 'HTML'],
+          ['/standards/css', 'CSS'],
+          ['/standards/js', 'JS']
         ]
       },
       {
-        type : 'group',
+        type: 'group',
         title: 'Frontend разработчик',
         collapsable: true,
-        children: [
-          {
+        children: [{
             type: 'group',
             title: 'Junior 1',
             collapsable: true,
@@ -69,7 +97,7 @@ module.exports = {
               ['/frontend/junior-1/html', 'HTML'],
               ['/frontend/junior-1/css', 'CSS'],
               ['/frontend/junior-1/javascript', 'JavaScript'],
-              ['/frontend/junior-1/testing','Тестирование']
+              ['/frontend/junior-1/testing', 'Тестирование']
             ]
           },
           {
@@ -80,14 +108,14 @@ module.exports = {
               ['/frontend/junior-2/html', 'HTML'],
               ['/frontend/junior-2/css', 'CSS'],
               ['/frontend/junior-2/javascript', 'JavaScript'],
-              ['/frontend/junior-2/dom','DOM'],
-              ['/frontend/junior-2/testing','Тестирование'],
-              ['/frontend/junior-2/git','Git'],
-              ['/frontend/junior-2/mobilebrowser','Мобильный браузеры'],
-              ['/frontend/junior-2/time','Работа с датой'],
-              ['/frontend/junior-2/books','Литература'],
-              ['/frontend/junior-2/typescript','TypeScript'],
-              ['/frontend/junior-2/react','React']
+              ['/frontend/junior-2/dom', 'DOM'],
+              ['/frontend/junior-2/testing', 'Тестирование'],
+              ['/frontend/junior-2/git', 'Git'],
+              ['/frontend/junior-2/mobilebrowser', 'Мобильный браузеры'],
+              ['/frontend/junior-2/time', 'Работа с датой'],
+              ['/frontend/junior-2/books', 'Литература'],
+              ['/frontend/junior-2/typescript', 'TypeScript'],
+              ['/frontend/junior-2/react', 'React']
             ]
           },
           {
@@ -97,16 +125,16 @@ module.exports = {
             children: [
               ['/frontend/junior-3/build', 'Системы сборки'],
               ['/frontend/junior-3/data', 'Работа с данными'],
-              ['/frontend/junior-3/css','CSS'],
+              ['/frontend/junior-3/css', 'CSS'],
               ['/frontend/junior-3/javascript', 'JavaScript'],
-              ['/frontend/junior-3/security','Безопасность'],
-              ['/frontend/junior-3/dom','DOM'],
-              ['/frontend/junior-3/git','Git'],
-              ['/frontend/junior-3/api','API'],
-              ['/frontend/junior-3/testing','Тестирование'],
-              ['/frontend/junior-3/books','Литература'],
-              ['/frontend/junior-3/typescript','TypeScript'],
-              ['/frontend/junior-3/react','React']
+              ['/frontend/junior-3/security', 'Безопасность'],
+              ['/frontend/junior-3/dom', 'DOM'],
+              ['/frontend/junior-3/git', 'Git'],
+              ['/frontend/junior-3/api', 'API'],
+              ['/frontend/junior-3/testing', 'Тестирование'],
+              ['/frontend/junior-3/books', 'Литература'],
+              ['/frontend/junior-3/typescript', 'TypeScript'],
+              ['/frontend/junior-3/react', 'React']
             ]
           },
           {
@@ -117,12 +145,12 @@ module.exports = {
               ['/frontend/middle-1/oop', 'ООП'],
               ['/frontend/middle-1/fp', 'ФП'],
               ['/frontend/middle-1/dataStructures', 'Структуры данных'],
-              ['/frontend/middle-1/design','Базовые принципы проектирования'],
-              ['/frontend/middle-1/async','Асинхронность в JS'],
-              ['/frontend/middle-1/generators','Генераторы'],
-              ['/frontend/middle-1/isomorphism','Изоморфный рендеринг'],
-              ['/frontend/middle-1/testing','Тестирование'],
-              ['/frontend/middle-1/typescript','TypeScript']
+              ['/frontend/middle-1/design', 'Базовые принципы проектирования'],
+              ['/frontend/middle-1/async', 'Асинхронность в JS'],
+              ['/frontend/middle-1/generators', 'Генераторы'],
+              ['/frontend/middle-1/isomorphism', 'Изоморфный рендеринг'],
+              ['/frontend/middle-1/testing', 'Тестирование'],
+              ['/frontend/middle-1/typescript', 'TypeScript']
             ]
           },
           {
@@ -133,9 +161,9 @@ module.exports = {
               ['/frontend/middle-2/patterns', 'Паттерны проектирования'],
               ['/frontend/middle-2/design', 'Базовые принципы проектирования'],
               ['/frontend/middle-2/oop', 'ООП'],
-              ['/frontend/middle-2/fp','Функциональное программирование'],
-              ['/frontend/middle-2/serviceWorkers','Сервис воркеры'],
-              ['/frontend/middle-2/network','Сеть']
+              ['/frontend/middle-2/fp', 'Функциональное программирование'],
+              ['/frontend/middle-2/serviceWorkers', 'Сервис воркеры'],
+              ['/frontend/middle-2/network', 'Сеть']
             ]
           },
           {
@@ -149,19 +177,18 @@ module.exports = {
         ]
       },
       {
-        type : 'group',
+        type: 'group',
         title: 'Backend разработчик',
         collapsable: true,
-        children: [
-          {
+        children: [{
             type: 'group',
             title: 'Junior 1',
             collapsable: true,
             children: [
-              ['/backend/junior-1/haskel', 'Haskel'],
+              ['/backend/junior-1/haskell', 'Haskell'],
               ['/backend/junior-1/db', 'Базы данных'],
               ['/backend/junior-1/linux', 'Администрирование Linux'],
-              ['/backend/junior-1/network','Сети']
+              ['/backend/junior-1/network', 'Сети']
             ]
           },
           {
@@ -171,7 +198,7 @@ module.exports = {
             children: [
               ['/backend/junior-3/aws', 'AWS'],
               ['/backend/junior-3/db', 'Базы данных'],
-              ['/backend/junior-3/haskel', 'Haskel']
+              ['/backend/junior-3/haskell', 'Haskell']
             ]
           }
         ]

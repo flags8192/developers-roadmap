@@ -31,13 +31,15 @@ vuepress dev docs
 
 👤 **Alexander Listratenkov**
 
-* Website: listratenkov.com
-* Twitter: [@flags8192](https://twitter.com/flags8192)
-* Github: [@flags8192](https://github.com/flags8192)
+- Website: listratenkov.com
+- Twitter: [@flags8192](https://twitter.com/flags8192)
+- Github: [@flags8192](https://github.com/flags8192)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/flags8192/developers-roadmap/issues). You can also take a look at the [contributing guide](https://github.com/flags8192/developers-roadmap/graphs/contributors).
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/flags8192/developers-roadmap/issues). You can also take a look at the [contributing guide](https://github.com/flags8192/developers-roadmap/graphs/contributors).
 
 ## Show your support
 
@@ -45,8 +47,10 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [Alexander Listratenkov](https://github.com/flags8192).<br />
+Copyright © 2020 [Alexander Listratenkov](https://github.com/flags8192).
+
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
