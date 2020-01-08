@@ -1,5 +1,7 @@
 # CSS
 
+---
+
 ## Главное
 
 Используем [pixel-perfect](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru), если заказчик предоставил макет;
