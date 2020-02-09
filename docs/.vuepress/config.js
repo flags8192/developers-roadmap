@@ -29,6 +29,10 @@ module.exports = {
     ['link', {
       rel: 'manifest',
       href: '/assets/img/manifest.json'
+    }],
+    ['meta', {
+      name: 'yandex-verification',
+      content: '54a4d42ae36accce'
     }]
   ],
   plugins: [
