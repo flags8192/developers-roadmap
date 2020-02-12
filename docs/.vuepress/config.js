@@ -26,10 +26,6 @@ module.exports = {
       color: '#5bbad5',
       href: '/assets/img/safari-pinned-tab.svg'
     }],
-    ['link', {
-      rel: 'manifest',
-      href: '/assets/img/manifest.json'
-    }],
     ['meta', {
       name: 'yandex-verification',
       content: '54a4d42ae36accce'
