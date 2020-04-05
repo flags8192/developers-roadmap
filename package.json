@@ -9,7 +9,7 @@
     "readme-md-generator": "^1.0.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.2.0",
-    "vuepress": "^1.1.0"
+    "@vuepress/plugin-google-analytics": "^1.4.0",
+    "vuepress": "^1.4.0"
   }
 }
