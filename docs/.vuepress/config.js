@@ -35,8 +35,7 @@ module.exports = {
     ['@vuepress/google-analytics', {
       ga: 'UA-155355230-1'
     }],
-    [
-      '@vuepress/last-updated',
+    ['@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
           const moment = require('moment')
@@ -44,7 +43,17 @@ module.exports = {
           return moment(timestamp).fromNow()
         }
       }
-    ]
+    ],
+    ['metrika',
+      {
+        counter: '65375878',
+        config: {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+        },
+      },
+    ],
   ],
   themeConfig: {
     docsDir: 'docs',
