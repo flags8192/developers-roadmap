@@ -44,16 +44,6 @@ module.exports = {
         }
       }
     ],
-    ['metrika',
-      {
-        counter: '65375878',
-        config: {
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true
-        },
-      },
-    ],
   ],
   themeConfig: {
     docsDir: 'docs',

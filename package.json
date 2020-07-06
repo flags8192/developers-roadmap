@@ -5,12 +5,11 @@
     "publish:docs": "vuepress build docs && ./deploy.sh"
   },
   "dependencies": {
-    "moment": "^2.24.0",
-    "readme-md-generator": "^1.0.0",
-    "vuepress-plugin-metrika": "^1.0.2"
+    "moment": "^2.27.0",
+    "readme-md-generator": "^1.0.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.4.0",
-    "vuepress": "^1.4.0"
+    "@vuepress/plugin-google-analytics": "^1.5.2",
+    "vuepress": "^1.5.2"
   }
 }
