@@ -6098,9 +6098,9 @@ pretty-time@^1.1.0:
   integrity sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==
 
 prismjs@^1.13.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
-  integrity sha512-AEDjSrVNkynnw6A+B1DsFkd6AVdTnp+/WoUixFRULlCLZVRZlVQMVWio/16jv7G1FscUxQxOQhWwApgbnxr6kQ==
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
+  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -7740,11 +7740,6 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue-yandex-metrika@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/vue-yandex-metrika/-/vue-yandex-metrika-1.8.3.tgz#f27d71f385ae3f20544a4d295865a2e446293c60"
-  integrity sha512-WD/2CPM5NWXg7JdmgfiOq8J5QbidrCDoDAaE0JfE32wceY56ewzERVGnOGS/Tfx+HvarGc+oJsBbZxl/e2BWTA==
-
 vue@^2.6.10:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
@@ -7769,13 +7764,6 @@ vuepress-plugin-container@^2.0.2:
   integrity sha512-l+EkeL+rC6DJch1wAZUFIkNDaz2TNOg4NQTHa3yMAsYkC+QaSRubGdN6YwOSmfjxVmM9s9D3gwBWw0O7OBhqRg==
   dependencies:
     markdown-it-container "^2.0.0"
-
-vuepress-plugin-metrika@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-metrika/-/vuepress-plugin-metrika-1.0.2.tgz#705fbb0bf3386129a142148df5d3990277e2250c"
-  integrity sha512-zWqb8kZpxoRSiCvg+SOgRJVXvZAJ6yEIt3LCKUM90RJ9c6fYEuEOxVUjAPKi7qtPHZbi6155+dAEEoJgYHcYfQ==
-  dependencies:
-    vue-yandex-metrika "^1.8.3"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
