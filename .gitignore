@@ -2,6 +2,7 @@
 node_modules
 /docs/.vuepress/dist
 deploy.sh
+package-lock.json
 
 # local env files
 .env.local
